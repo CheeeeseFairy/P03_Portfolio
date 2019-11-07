@@ -11,7 +11,21 @@ header h1 {
   color: #2C666E; /*teal*/
 }
 
+nav {
+  text-align: center;
+  width: 100%;
+  padding: 0.75rem 0;
+  background-color: #FAB3A9;
+}
+
+nav a {
+  padding: 0.75rem 1rem;
+  margin: 0 1rem;
+  font-size: 1rem;
+  background-color: #FAB3A9;
+}
+
 body {
   font-family: "Gotham", sans-serif;
-  background-color: #F0EDEE; /*light grey*/
+  background-color: white; /*light grey*/
 }
