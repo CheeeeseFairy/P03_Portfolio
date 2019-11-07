@@ -1,13 +1,17 @@
 @import "fonts.css";
 @import url("fonts.css");
 
+.wrapper {
+  height: 100%;
+}
+
 header {
   text-align: center;
 }
 
 header h1 {
   font-weight: bold;
-  font-size: 3em;
+  font-size: 3rem;
   color: #2C666E; /*teal*/
 }
 
@@ -26,6 +30,18 @@ nav a {
 }
 
 body {
+  width: 100%;
+  margin: 0;
   font-family: "Gotham", sans-serif;
-  background-color: white; /*light grey*/
+  background-color: white;
+}
+
+p {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+footer {
+  margin: 1rem;
+  padding: 1rem;
 }
