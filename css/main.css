@@ -1,0 +1,10 @@
+@import "fonts.css";
+@import url("fonts.css");
+
+header {
+
+}
+
+body {
+  font-family: "GothamMedium", sans-serif;
+}
