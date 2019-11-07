@@ -3,30 +3,61 @@
 
 .wrapper {
   height: 100%;
+  margin: 1rem;
 }
 
 header {
   text-align: center;
 }
 
-header h1 {
+h1 {
   font-weight: bold;
   font-size: 3rem;
   color: #2C666E; /*teal*/
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  color: #2C666E; /*teal*/
+  font-size: 1.5rem;
+}
+
+h4 {
+  color: #79B488; /* green */
 }
 
 nav {
   text-align: center;
   width: 100%;
   padding: 0.75rem 0;
-  background-color: #FAB3A9;
+  background-color: #FAB3A9; /* pink */
 }
 
 nav a {
   padding: 0.75rem 1rem;
   margin: 0 1rem;
   font-size: 1rem;
-  background-color: #FAB3A9;
+  background-color: #FAB3A9; /* pink */
+  color: white;
+}
+
+#navigation a {
+  padding: 0.75rem 1.5rem;
+  margin: 0 1rem;
+  font-size: 1rem;
+  background-color: #FAB3A9; /* pink */
+  color: white;
+}
+
+#navigation a:hover {
+  padding: 0.75rem 1.5rem;
+  margin: 0 1rem;
+  font-size: 1rem;
+  background-color: #79B488; /* green */
+  color: white;
 }
 
 body {
@@ -36,9 +67,36 @@ body {
   background-color: white;
 }
 
+body a {
+  color: #FDB4AD; /* pink */
+}
+
+body a:hover {
+  color: #79B488; /* green */
+  transition: 0.5s;
+}
+
 p {
-  margin: 1rem;
+  margin: 0.25rem 1rem;
   padding: 1rem;
+  width: 90%;
+}
+
+button {
+  background-color: #79B488; /* green */
+  border: none;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-align: center;
+  font-size: 1rem;
+  display: inline-block;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+button:hover, button:focus, button:active {
+  background-color: #FDB4AD; /* pink */
+  transition: 0.5s;
 }
 
 footer {
