@@ -2,9 +2,16 @@
 @import url("fonts.css");
 
 header {
+  text-align: center;
+}
 
+header h1 {
+  font-weight: bold;
+  font-size: 3em;
+  color: #2C666E; /*teal*/
 }
 
 body {
-  font-family: "GothamMedium", sans-serif;
+  font-family: "Gotham", sans-serif;
+  background-color: #F0EDEE; /*light grey*/
 }
