@@ -6,6 +6,21 @@
   margin: 1rem;
 }
 
+.project {
+  background-color: #79B488; /* green */
+  text-align:center;
+  color: white;
+  padding: 2rem;
+  width: 20%;
+  float:left;
+  margin: 1rem;
+}
+
+.project:hover {
+  background-color: #FAB3A9; /* pink */
+  transition: 0.5s;
+}
+
 header {
   text-align: center;
 }
@@ -102,4 +117,5 @@ button:hover, button:focus, button:active {
 footer {
   margin: 1rem;
   padding: 1rem;
+  clear: both;
 }
