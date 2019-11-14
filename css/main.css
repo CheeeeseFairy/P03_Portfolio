@@ -54,11 +54,13 @@ img {
   transition: 0.5s;
 }
 
-.process-analysis .iframe-div {
+.iframe-div {
   position: relative;
+  padding-top: 56%;
 }
+/* https://codepen.io/cobycreative/pen/cIrnv */
 
-.process-analysis .iframe-div iframe {
+iframe {
   position: absolute;
   top: 0;
   left:0;
