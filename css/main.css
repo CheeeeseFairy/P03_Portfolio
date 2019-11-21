@@ -90,6 +90,7 @@ h1 {
 
 h2 {
   font-size: 2rem;
+  clear: both;
 }
 
 h3 {
@@ -99,6 +100,7 @@ h3 {
 
 h4 {
   color: #79B488; /* green */
+  clear: both;
 }
 
 h5 {
@@ -165,4 +167,12 @@ footer {
   margin: 1rem;
   padding: 1rem;
   clear: both;
+}
+
+@media only screen and (min-width: 1500px) {
+  .wrapper {
+    height: 100%;
+    margin: 1rem 18rem;
+    transition: 0.5s;
+  }
 }
