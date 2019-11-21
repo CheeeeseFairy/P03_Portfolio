@@ -112,6 +112,7 @@ h3 {
 h4 {
   color: #79B488; /* green */
   clear: both;
+  font-size: 1.2rem;
 }
 
 h5 {
@@ -153,7 +154,7 @@ nav a {
 p {
   margin: 0.25rem 1rem;
   padding: 1em;
-  font-size: 1rem;
+  font-size: 1.05em;
 }
 
 button {
