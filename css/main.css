@@ -30,8 +30,9 @@ section {
   background-color: #79B488; /* green */
   text-align:center;
   color: white;
-  padding: 2rem;
-  width: 9em;
+  padding: 3rem;
+  width: 13rem;
+  height: 8rem;
   float:left;
   margin: 1rem;
 }
@@ -50,7 +51,7 @@ img {
 }
 
 .project:hover {
-  background-color: #FAB3A9; /* pink */
+  background-color: #2C666E; /*teal*/
   transition: 0.5s;
 }
 
@@ -68,8 +69,17 @@ iframe {
   height: 100%;
 }
 
+.content {
+  clear:both;
+}
+
 header {
   text-align: center;
+}
+
+header a {
+  color: #2C666E; /*teal*/
+  text-decoration: none;
 }
 
 h1 {
@@ -119,7 +129,7 @@ nav a {
   color: white;
 }
 
-#navigation a:hover {
+#navigation a:hover, #navigation a:focus, #navigation a:active {
   padding: 0.75rem 1.5rem;
   margin: 0 1rem;
   font-size: 1rem;
@@ -130,6 +140,7 @@ nav a {
 p {
   margin: 0.25rem 1rem;
   padding: 1em;
+  font-size: 1rem;
 }
 
 button {
