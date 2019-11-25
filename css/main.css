@@ -63,6 +63,8 @@ img {
   margin: 1rem;
 }
 
+/* --------------------- INDEX PROJECT IMAGES ---------------------  */
+
 .project:hover {
   background-color: #2C666E; /*teal*/
   transition: 0.5s;
@@ -107,6 +109,8 @@ img {
   transform: translate(-50%, -50%);
   background-color: #2C666E; /*teal*/
 }
+
+/* ------------------------------------------------------------  */
 
 .iframe-div {
   position: relative;
