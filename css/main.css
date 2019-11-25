@@ -177,9 +177,12 @@ button:hover, button:focus, button:active {
   transition: 0.5s;
 }
 
-
 footer {
   margin: 1rem;
   padding: 1rem;
   clear: both;
+}
+
+footer a {
+  margin: 1rem;
 }
