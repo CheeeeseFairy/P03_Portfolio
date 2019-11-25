@@ -68,6 +68,26 @@ img {
   transition: 0.5s;
 }
 
+.project-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  float:left;
+  width:50%;
+}
+
+.project-title {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .iframe-div {
   position: relative;
   padding-top: 56%;
