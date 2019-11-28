@@ -1,6 +1,7 @@
 @import "fonts.css";
 @import url("fonts.css");
 
+/* --------------------- SMALL SCREEN SIZE ------------------------------- */
 @media only screen and (min-width: 100px) {
   .wrapper {
     height: 100%;
@@ -8,15 +9,137 @@
     margin: 1rem 1rem;
     transition: 0.3s;
   }
+
+  .about img {
+    clear: both;
+    margin: 1rem;
+    width: 95%;
+  }
+
+  /* --------------------- INDEX PROJECT IMAGES ---------------------  */
+
+  .project:hover {
+    background-color: #2C666E; /*teal*/
+    transition: 0.2s;
+  }
+
+  .project-container {
+    position: relative;
+    text-align: center;
+    color: white;
+    float:left;
+    width:100%;
+    margin: 0.25rem;
+  }
+
+  .centered:hover {
+    opacity: 0.85;
+    transition: .5s ease;
+  }
+
+  .project-container img {
+    margin: 0;
+  }
+
+  .project-title {
+    color: white;
+    font-size: 1.5rem;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    position: absolute;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width:100%;
+    height:100%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    background-color: #2C666E; /*teal*/
+  }
+
+  /* ------------------------------------------------------------  */
+
+  .process-analysis img {
+    width: 100%;
+  }
 }
 
-@media only screen and (min-width: 1500px) {
+
+
+/* ------------------------ BIG SCREEN SIZE --------------------------*/
+@media only screen and (min-width: 1000px) {
   .wrapper {
     height: 100%;
     min-height: 700px;
-    margin: 1rem 18rem;
+    margin: 1rem 15rem;
     transition: 0.3s;
   }
+
+  .about img {
+    float:right;
+    margin: 1rem;
+    width: 50%;
+  }
+
+  /* --------------------- INDEX PROJECT IMAGES ---------------------  */
+
+  .project:hover {
+    background-color: #2C666E; /*teal*/
+    transition: 0.2s;
+  }
+
+  .project-container {
+    position: relative;
+    text-align: center;
+    color: white;
+    float:left;
+    width:48%;
+    margin: 0.25rem;
+  }
+
+  .centered:hover {
+    opacity: 0.85;
+    transition: .5s ease;
+  }
+
+  .project-container img {
+    margin: 0;
+  }
+
+  .project-title {
+    color: white;
+    font-size: 1.5rem;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    position: absolute;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width:100%;
+    height:100%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    background-color: #2C666E; /*teal*/
+  }
+
+  .process-analysis img {
+    float:left;
+    width: 30%;
+  }
+
+  /* ------------------------------------------------------------  */
 }
 
 body {
@@ -53,64 +176,6 @@ section {
 img {
   margin: 1rem 0.5rem;
 }
-
-.process-analysis img {
-  float:left;
-}
-
-.about img {
-  float:right;
-  margin: 1rem;
-}
-
-/* --------------------- INDEX PROJECT IMAGES ---------------------  */
-
-.project:hover {
-  background-color: #2C666E; /*teal*/
-  transition: 0.5s;
-}
-
-.project-container {
-  position: relative;
-  text-align: center;
-  color: white;
-  float:left;
-  width:45%;
-  margin: 0.5rem;
-}
-
-.centered:hover {
-  opacity: 0.85;
-  transition: .5s ease;
-}
-
-.project-container img {
-  margin: 0;
-}
-
-.project-title {
-  color: white;
-  font-size: 1.5rem;
-  top: 50%;
-  left: 50%;
-  margin: 0;
-  text-align: center;
-  transform: translate(-50%, -50%);
-  position: absolute;
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width:100%;
-  height:100%;
-  opacity: 0;
-  transform: translate(-50%, -50%);
-  background-color: #2C666E; /*teal*/
-}
-
-/* ------------------------------------------------------------  */
 
 .iframe-div {
   position: relative;
@@ -184,7 +249,7 @@ nav a {
 
 #navigation a {
   padding: 0.75rem 1.5rem;
-  margin: 0 1rem;
+  margin: 0rem;
   font-size: 1rem;
   background-color: #FAB3A9; /* pink */
   color: white;
@@ -192,7 +257,7 @@ nav a {
 
 #navigation a:hover, #navigation a:focus, #navigation a:active {
   padding: 0.75rem 1.5rem;
-  margin: 0 1rem;
+  margin: 0rem;
   font-size: 1rem;
   background-color: #79B488; /* green */
   color: white;
